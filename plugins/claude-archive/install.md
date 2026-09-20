@@ -17,7 +17,7 @@ after cloning.
 ## Fast path
 
 ```bash
-git clone https://github.com/nickbenes/claude-archive.git ~/claude-archive-skill
+git clone https://github.com/nickbenes/marketplace.git ~/claude-archive-skill
 cd ~/claude-archive-skill
 
 which browser-harness || echo "NEEDS_INSTALL"

@@ -5,8 +5,8 @@ Nick Benes's personal Claude Code plugin marketplace.
 ## Install
 
 ```
-/plugin marketplace add nickbenes/claude-archive
-/plugin install claude-archive@claude-archive-marketplace
+/plugin marketplace add nickbenes/marketplace
+/plugin install claude-archive@nickbenes-marketplace
 ```
 
 ## Plugins

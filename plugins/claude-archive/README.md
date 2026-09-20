@@ -32,7 +32,7 @@ commands needed on your end first:
 
 ```text
 I want to archive all my Claude chat history. Please use the latest skill from
-https://github.com/nickbenes/claude-archive to do that.
+https://github.com/nickbenes/marketplace to do that.
 ```
 
 The agent will clone this repo, install its one dependency (`browser-harness`) if
@@ -127,7 +127,7 @@ that executes arbitrary JS in a page, equivalent to what this script needs),
 you can skip installing anything and instead ask Claude directly:
 
 > Using the Claude in Chrome extension, please archive my Claude.ai chats using the
-> same internal-API approach as https://github.com/nickbenes/claude-archive
+> same internal-API approach as https://github.com/nickbenes/marketplace
 > (fetch `/api/organizations/{org_id}/chat_conversations` etc. from inside my logged-in
 > tab via the JS-execution tool) — save the output to <your chosen folder>.
 
@@ -223,8 +223,8 @@ text further in, or to the session id if there genuinely isn't any).
 Install it as a plugin from the marketplace this repo also hosts:
 
 ```
-/plugin marketplace add nickbenes/claude-archive
-/plugin install claude-archive@claude-archive-marketplace
+/plugin marketplace add nickbenes/marketplace
+/plugin install claude-archive@nickbenes-marketplace
 ```
 
 See [skills/archive-claude-chats/SKILL.md](skills/archive-claude-chats/SKILL.md) for
