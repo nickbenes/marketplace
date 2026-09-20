@@ -7,7 +7,7 @@ description: Archive Claude chat history to local Markdown/JSON, sorted chronolo
 
 Two independent archivers sharing one output shape (`conversation.md` +
 `metadata.json`, timestamp-prefixed folders that sort chronologically together).
-See [README.md](README.md) for the full technical writeup — this file is the
+See [README.md](../../README.md) for the full technical writeup — this file is the
 condensed skill entry point. Figure out which one the user means before running
 anything: "my Claude chats" / "claude.ai" → `archive_api.py`; "this conversation" /
 "Claude Code session" / "our chat history in this terminal" → `archive_code_session.py`.
@@ -18,14 +18,14 @@ Uses Claude.ai's internal JSON API (not a browser extension or page-scrape), via
 [browser-harness](https://github.com/browser-use/browser-harness) as the
 authenticated-browser bridge.
 
-**First time using this on a machine?** Read [install.md](install.md) instead —
+**First time using this on a machine?** Read [install.md](../../install.md) instead —
 it covers cloning the repo and installing `browser-harness`. This section assumes
 that's already done.
 
 ### Before running (quick checks, not first-time setup)
 
 1. `which browser-harness` succeeds. If not, this is actually first-time setup —
-   go to [install.md](install.md).
+   go to [install.md](../../install.md).
 2. The user's Chrome has a tab logged into claude.ai (any tab; doesn't need to be
    focused). If archiving a *different* Claude.ai account than whatever the
    current Claude Code session is authenticated as, that's fine — this script only
@@ -48,7 +48,7 @@ full run can take a few minutes and there's no resume-from-partial-run support y
 
 ### What it produces
 
-See [README.md](README.md#output-structure) for the full directory layout. In short:
+See [README.md](../../README.md#output-structure) for the full directory layout. In short:
 one timestamp-prefixed folder per chat (sorts chronologically by name), a
 `_projects/` folder with each project's metadata and knowledge files, and a
 `_memory.md` with the account's Settings → Capabilities memory.
@@ -59,7 +59,7 @@ one timestamp-prefixed folder per chat (sorts chronologically by name), a
   already retries each chat up to 3 times with increasing timeouts. If a chat still
   fails after that, it's usually one with an unusually large number of attached
   files/images — safe to re-run just that chat afterward rather than the whole
-  archive (see the retry pattern in README.md).
+  archive (see the retry pattern in ../../README.md).
 - **Everything fails immediately**: check that `browser-harness` can actually reach
   a running, logged-in Chrome (`browser-harness <<< 'print(page_info())'` as a smoke
   test) before assuming the archive script itself is broken.
@@ -97,7 +97,7 @@ that may include other sessions in the same project.
 
 ### What it produces
 
-See [README.md](README.md#output-structure-1) for the full layout. In short: one
+See [README.md](../../README.md#output-structure-1) for the full layout. In short: one
 timestamp-prefixed folder per session with `conversation.md` (clean, timestamped
 to the minute), `thinking.md` (extended thinking + tool calls/results — the detail
 behind the desktop app's collapsed "Ran N commands"), `metadata.json`, and an

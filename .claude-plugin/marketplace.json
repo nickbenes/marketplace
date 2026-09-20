@@ -1,0 +1,29 @@
+{
+  "name": "claude-archive-marketplace",
+  "description": "Nick Benes's personal Claude Code plugin marketplace",
+  "owner": {
+    "name": "Nick Benes",
+    "email": "nickbenes@gmail.com",
+    "url": "https://github.com/nickbenes/claude-archive"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "claude-archive",
+      "displayName": "Claude Archive",
+      "description": "Archive Claude chat history (claude.ai web chats and Claude Code sessions) to local Markdown/JSON, sorted chronologically",
+      "version": "1.0.0",
+      "source": "claude-archive",
+      "author": {
+        "name": "Nick Benes",
+        "email": "nickbenes@gmail.com"
+      },
+      "repository": "https://github.com/nickbenes/claude-archive",
+      "homepage": "https://github.com/nickbenes/claude-archive",
+      "keywords": ["archive", "export", "claude", "backup"],
+      "category": "productivity"
+    }
+  ]
+}
