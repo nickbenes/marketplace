@@ -1,0 +1,3 @@
+This is for {{DOMAIN}}. Please reference the startup instructions located in this Google Drive
+folder: {{DRIVE_FOLDER_URL}}. Load the file called startup_instructions.txt and follow those
+guidelines for this conversation.

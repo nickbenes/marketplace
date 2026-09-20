@@ -24,6 +24,21 @@
       "homepage": "https://github.com/nickbenes/marketplace",
       "keywords": ["archive", "export", "claude", "backup"],
       "category": "productivity"
+    },
+    {
+      "name": "private-project",
+      "displayName": "Private Project",
+      "description": "Set up a private, recurring conversation with Claude on sensitive topics (family health, finances, kids, therapy, job search) that runs through incognito chats and keeps its real record in a Google Drive folder instead of chat history",
+      "version": "1.0.0",
+      "source": "private-project",
+      "author": {
+        "name": "Nick Benes",
+        "email": "nickbenes@gmail.com"
+      },
+      "repository": "https://github.com/nickbenes/marketplace",
+      "homepage": "https://github.com/nickbenes/marketplace",
+      "keywords": ["privacy", "incognito", "google-drive", "journaling", "personal"],
+      "category": "productivity"
     }
   ]
 }
