@@ -42,6 +42,24 @@
       "homepage": "https://github.com/nickbenes/private-project",
       "keywords": ["privacy", "incognito", "google-drive", "journaling", "personal"],
       "category": "productivity"
+    },
+    {
+      "name": "ops-center",
+      "displayName": "Ops Center",
+      "description": "Bootstrap and manage a persistent, filesystem-backed project workspace that lets independent Claude Code threads coordinate over time without shared conversational memory",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "nickbenes/ops-center"
+      },
+      "author": {
+        "name": "Nick Benes",
+        "email": "nickbenes@gmail.com"
+      },
+      "repository": "https://github.com/nickbenes/ops-center",
+      "homepage": "https://github.com/nickbenes/ops-center",
+      "keywords": ["project-management", "memory", "multi-thread", "persistence", "orchestration"],
+      "category": "productivity"
     }
   ]
 }
