@@ -12,10 +12,12 @@ Nick Benes's personal Claude Code plugin marketplace.
 
 ## Plugins
 
-- [claude-archive](plugins/claude-archive/README.md) — archive Claude chat
-  history (claude.ai web chats and Claude Code sessions) to local
+Each plugin lives in its own repo; this marketplace just registers them.
+
+- [claude-archive](https://github.com/nickbenes/claude-archive) — archive
+  Claude chat history (claude.ai web chats and Claude Code sessions) to local
   Markdown/JSON, sorted chronologically.
-- [private-project](plugins/private-project/README.md) — set up a private,
-  recurring conversation with Claude on sensitive topics that runs through
-  incognito chats and keeps its real record in a Google Drive folder instead
-  of chat history.
+- [private-project](https://github.com/nickbenes/private-project) — set up a
+  private, recurring conversation with Claude on sensitive topics that runs
+  through incognito chats and keeps its real record in a Google Drive folder
+  instead of chat history.
