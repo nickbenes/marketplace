@@ -8,6 +8,7 @@ Nick Benes's personal Claude Code plugin marketplace.
 /plugin marketplace add nickbenes/marketplace
 /plugin install claude-archive@nickbenes-marketplace
 /plugin install private-project@nickbenes-marketplace
+/plugin install ops-center@nickbenes-marketplace
 ```
 
 ## Plugins
@@ -21,3 +22,7 @@ Each plugin lives in its own repo; this marketplace just registers them.
   private, recurring conversation with Claude on sensitive topics that runs
   through incognito chats and keeps its real record in a Google Drive folder
   instead of chat history.
+- [ops-center](https://github.com/nickbenes/ops-center) — bootstrap and manage
+  a persistent, filesystem-backed project workspace that lets independent
+  Claude Code threads coordinate over time without shared conversational
+  memory.
