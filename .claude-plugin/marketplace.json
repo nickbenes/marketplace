@@ -47,7 +47,7 @@
       "name": "ops-center",
       "displayName": "Ops Center",
       "description": "Bootstrap and manage a persistent, filesystem-backed project workspace that lets independent Claude Code threads coordinate over time without shared conversational memory",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": {
         "source": "github",
         "repo": "nickbenes/ops-center"
